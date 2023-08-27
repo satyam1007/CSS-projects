@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-8 Animation</title>
+    <style>
+        @keyframes changecolor {
+            0% {
+                background-color: blue;
+                border-radius: 0%;
+            }
+
+            10% {
+                background-color: chartreuse;
+                border-radius: 10%;
+            }
+
+            20% {
+                background-color: aqua;
+                border-radius: 20%;
+            }
+
+            30% {
+                background-color: darkred;
+                border-radius: 30%;
+            }
+
+            40% {
+                background-color: blueviolet;
+                border-radius: 40%;
+            }
+
+            50% {
+                background-color: pink;
+                border-radius: 50%;
+            }
+
+            60% {
+                background-color: yellow;
+                border-radius: 40%;
+            }
+
+            70% {
+                background-color: black;
+                border-radius: 30%;
+            }
+
+            80% {
+                background-color: darkblue;
+                border-radius: 20%;
+            }
+
+            90% {
+                background-color: darkorange;
+                border-radius: 10%;
+            }
+
+            100% {
+                background-color: burlywood;
+                border-radius: 10%;
+            }
+        }
+
+        .container {
+            margin: auto;
+            margin-top: 150px;
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            animation-name: changecolor;
+            animation-duration: 1s;
+            /* animation-delay: 1s; */
+            animation-iteration-count: infinite;
+        }
+
+        /* .container2 { */
+        /* height: 200px;
+            width: 200px;
+            background-color: red;
+            animation-name: changecolor;
+            animation-duration: 1s; */
+        /* animation-delay: 2s; */
+        /* animation-iteration-count: infinite; */
+        /* animation-direction: reverse; */
+        /* animation-direction: alternate-reverse; */
+        /* animation-timing-function: ease-in-out; */
+        /* animation-timing-function: linear; */
+        /* } */
+    </style>
+</head>
+
+<body>
+    <div class="container"></div>
+    <!-- <hr>
+    <div class="container2"></div> -->
+</body>
+
+</html>

@@ -1,0 +1,698 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: black;
+    background-color: white;
+}
+
+.container1 .hr-1 {
+    border-top: #ccc;
+}
+
+.container1 .NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.container1 .NavBar .logo ul {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.container1 .NavBar .logo ul li h4 {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+
+.container1 .NavBar .logo ul li h4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.container1 .NavBar .About-Us ul {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container1 .NavBar .About-Us ul button {
+    display: flex;
+    margin-right: 100px;
+    padding-right: 17px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 17px;
+    border-radius: 100px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container1 .NavBar .About-Us ul a {
+    text-decoration: none;
+}
+
+.container1 .NavBar .About-Us ul button:hover {
+    background-color: rgb(250, 242, 5);
+    color: black;
+}
+
+.container1 .NavBar .About-Us ul li {
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+    padding-right: 35px;
+    position: relative;
+    top: 4px;
+}
+
+.container1 .NavBar .About-Us ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.container1 .NavBar .About-Us ul li::after {
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(250, 242, 5);
+    display: block;
+    border-radius: 100px;
+}
+
+.container1 .NavBar .About-Us ul li:hover::after {
+    width: 100%;
+    transition: 0.3s linear;
+}
+
+.container-2 .softwere {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.container-2 .softwere .h1-2 {
+    font-size: 70px;
+    margin-bottom: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-2 .softwere .p-1 {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-2 .softwere .btn-2 {
+    width: 180px;
+    margin-top: 10px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 100px;
+    border-color: black;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container-2 .softwere .btn-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-2 .softwere .btn-2:hover {
+    transform: scale(1.1);
+}
+
+.container-2 {
+    display: flex;
+    /* gap: 50px; */
+    align-items: center;
+    margin-left: 2%;
+
+}
+
+.container-2 .setting {
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+.container-3 .Services .h1-3 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    background-color: rgb(250, 242, 5);
+    color: black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.container-3 .designing .first-designs {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 80px;
+}
+
+.container-3 .designing {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-3 .designing .first-designs .website {
+    flex: 1 1 32%;
+    height: 250px;
+}
+
+.container-3 .designing .discription h3 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-3 .designing .first-designs .website .discription p {
+    margin-top: 20px;
+    font-size: 18px;
+    opacity: 0.70;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-4 .Studies h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    background-color: rgb(250, 242, 5);
+    color: black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.container-4 .UXM {
+    background-color: #4169E1;
+    width: 90%;
+    min-height: 500px;
+    margin-left: 5%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-4 .UXM h1 {
+    margin-left: 30px;
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 2px;
+    font-family: "Muli", sans-serif;
+}
+
+.container-4 .UXM p {
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: "Muli", sans-serif;
+}
+
+.container-4 .UXM .Services {
+    margin-left: 30px;
+}
+
+.container-4 .UXM .Services h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+}
+
+.container-4 .UXM .Services ul {
+    display: flex;
+    color: white;
+    font-size: 17px;
+    margin-top: 30px;
+    padding-left: 0%;
+}
+
+.container-4 .UXM .Services ul li {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Muli", sans-serif;
+}
+
+.container-4 .UXM .Services .link {
+    margin-top: 30px;
+}
+
+.container-4 .UXM .Services .link a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Muli", sans-serif;
+}
+
+.container-4 .Mobilegoo {
+    background-color: #0098E8;
+    width: 90%;
+    min-height: 500px;
+    margin-left: 5%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-4 .Mobilegoo .Mobile-Services h1 {
+    padding-top: 20px;
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 2px;
+    font-family: "Muli", sans-serif;
+}
+
+.container-4 .Mobilegoo .Mobile-Services p {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: "Muli", sans-serif;
+}
+
+.container-4 .Mobilegoo .Mobile-Services .Services-2 h3 {
+    margin-top: 30px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+}
+
+.container-4 .Mobilegoo .Mobile-Services .Services-2 ul {
+    display: flex;
+    margin-top: 30px;
+    color: white;
+    font-size: 17px;
+    padding-left: 0%;
+}
+
+.container-4 .Mobilegoo .Mobile-Services ul li {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Muli", sans-serif;
+}
+
+
+.container-4 .The-Safe-Zone {
+    background-color: #F45024;
+    width: 90%;
+    min-height: 500px;
+    margin-left: 5%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-4 .The-Safe-Zone .Mobile-Services-2 h1 {
+    padding-top: 20px;
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 2px;
+    font-family: "Muli", sans-serif;
+}
+
+.container-4 .The-Safe-Zone .Mobile-Services-2 p {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: "Muli", sans-serif;
+}
+
+.container-4 .The-Safe-Zone .Mobile-Services-2 .Services-3 h3 {
+    margin-top: 30px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+}
+
+.container-4 .The-Safe-Zone .Mobile-Services-2 .Services-3 ul {
+    display: flex;
+    margin-top: 30px;
+    color: white;
+    font-size: 17px;
+    padding-left: 0%;
+}
+
+.container-4 .The-Safe-Zone .Mobile-Services-2 ul li {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Muli", sans-serif;
+}
+
+.container-5 .Testimonials h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    background-color: rgb(250, 242, 5);
+    color: black;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.container-5 .contant {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-5 .contant .Joseph-Blair i {
+    font-size: 30px;
+}
+
+.container-5 .contant .Joseph-Blair .p-1 p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.8;
+    font-family: "Muli", sans-serif;
+}
+
+.container-5 .contant .Joseph-Blair .name .p-2 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Muli", sans-serif;
+}
+
+.container-5 .contant .Joseph-Blair .name .p-3 {
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: "Muli", sans-serif;
+    position: relative;
+    bottom: 13px;
+}
+
+.container-5 .contant .Shiva i {
+    font-size: 30px;
+}
+
+.container-5 .contant .Shiva .p-2 p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.8;
+    font-family: "Muli", sans-serif;
+}
+
+.container-5 .contant .Shiva .name-2 .p-4 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Muli", sans-serif;
+}
+
+.container-5 .contant .Shiva .name-2 .p-5 {
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: "Muli", sans-serif;
+    position: relative;
+    bottom: 13px;
+}
+
+.container-5 .contant .Shannon i {
+    font-size: 30px;
+}
+
+.container-5 .contant .Shannon .p-3 p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.8;
+    font-family: "Muli", sans-serif;
+}
+
+.container-5 .contant .Shannon .name-3 .p-6 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Muli", sans-serif;
+}
+
+.container-5 .contant .Shannon .name-3 .p-7 {
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: "Muli", sans-serif;
+    position: relative;
+    bottom: 13px;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.footer .first-footer {
+    margin-top: 60px;
+    margin-left: 100px;
+    font-family: "Muli", sans-serif;
+}
+
+.footer .first-footer h1 {
+    padding-top: 60px;
+    margin-bottom: 0%;
+    font-size: 55px;
+}
+
+.footer .first-footer p {
+    font-size: 19px;
+}
+
+.footer .first-footer button {
+    margin-top: 20px;
+    border-radius: 100px;
+    border-color: black;
+    letter-spacing: 1px;
+    background-color: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer .first-footer button:hover {
+    background-color: white;
+}
+
+.last-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    font-family: "Muli", sans-serif;
+}
+
+.last-footer .first-column .p-1 {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.last-footer .first-column .p-1 .span-1 {
+    color: #d0cfcb;
+}
+
+.last-footer .first-column .p-1 .span-1:hover {
+    color: #f0592b;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.last-footer .first-column .p-2 {
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #d0cfcb;
+}
+
+.last-footer .first-column .p-2:hover {
+    color: #f0592b;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.last-footer .first-column i {
+    font-size: 25px;
+    margin-top: 30px;
+    color: #d0cfcb;
+}
+
+.last-footer .first-column i:hover {
+    color: #f0592b;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.last-footer .first-column .p-3 {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.last-footer .second-column ul h3 {
+    margin-bottom: 7px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.last-footer .second-column ul li {
+    color: #d0cfcb;
+    list-style-type: none;
+    line-height: 1.9;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.last-footer .second-column ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.last-footer .second-column ul li a:hover {
+    color: #f0592b;
+    transition: 0.3s;
+}
+
+.last-footer .third-column ul h3 {
+    margin-bottom: 7px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.last-footer .third-column ul li {
+    color: #d0cfcb;
+    font-size: 15px;
+    list-style-type: none;
+    line-height: 1.9;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.last-footer .third-column ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.last-footer .third-column ul li a:hover {
+    color: #f0592b;
+    transition: 0.3s;
+}
+
+.last-footer .fourth-column ul h3 {
+    margin-bottom: 7px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.last-footer .fourth-column ul li {
+    color: #d0cfcb;
+    font-size: 15px;
+    list-style-type: none;
+    line-height: 1.9;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.last-footer .fourth-column ul li:hover {
+    color: #f0592b;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 1100px) {
+    .container-2 {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .container-2 .h1-2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .contant {
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 35%;
+    }
+}

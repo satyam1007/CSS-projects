@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web page1</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            background-image: url(img-8.jpeg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .header {
+            cursor: pointer;
+            height: 50px;
+            padding-top: 10px;
+            background-color: rgb(45, 41, 41);
+            color: white;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: flex-end;
+            color: white;
+        }
+
+        ul li {
+            position: relative;
+            bottom: 20px;
+        }
+
+        ul li a {
+            color: rgb(163, 163, 176);
+            margin: 20px;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            color: white;
+        }
+
+        .title {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            font-size: 25px;
+            line-height: 80px;
+            letter-spacing: 5px;
+            height: 500px;
+            align-items: center;
+            /* padding-top: 150px; */
+        }
+
+        .button {
+            padding-left: 150px;
+        }
+
+        .btn {
+            margin: 10px;
+            border-radius: 10px;
+            color: white;
+            border: 2px solid white;
+            width: 150px;
+            height: 50px;
+            font-size: 20px;
+            cursor: pointer;
+            transition-duration: 1s;
+            background-color: transparent;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .a1 {
+            position: relative;
+            bottom: 18px;
+            color: aqua;
+        }
+
+        .a2 {
+            position: relative;
+            bottom: 18px;
+            color: aqua;
+        }
+
+        .a3 {
+            position: relative;
+            bottom: 18px;
+            color: aqua;
+        }
+
+        .a4 {
+            position: relative;
+            bottom: 18px;
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Code on your tip</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <a href="#" class="a1">
+                    <ion-icon name="home-outline"></ion-icon>
+                </a>
+                <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+                <li><a href="#">About</a></li>
+                <a href="#" class="a2">
+                    <ion-icon name="person-add-outline"></ion-icon>
+                </a>
+                <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+                <li><a href="#">Survices</a></li>
+                <a href="#" class="a3">
+                    <ion-icon name="bus-outline"></ion-icon>
+                </a>
+                <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+                <li><a href="#">Contact</a></li>
+                <a href="#" class="a4">
+                    <ion-icon name="person-circle-outline"></ion-icon>
+                </a>
+                <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+            </ul>
+        </div>
+        <div class="title">
+            <div class="center">
+                <h1>Creat Amazing Website<br>Pure HTML & CSS Only</h1>
+                <div class="button">
+                    <button class="btn">Click here</button>
+                    <button class="btn">Click here</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

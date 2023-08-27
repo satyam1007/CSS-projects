@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web page5</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            background-image: url(img-11.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            border: 2px solid white;
+            border-radius: 20px;
+            text-align: center;
+            width: 350px;
+            height: 50px;
+            padding-top: 8px;
+        }
+
+        h1:hover {
+            transform: scale(0.9);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .header nav ul {
+            display: flex;
+            list-style: none;
+            padding: 10px;
+        }
+
+        .header nav ul li {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        li:hover {
+            color: white;
+        }
+
+        .btn1 {
+            position: relative;
+            bottom: 15px;
+            width: 150px;
+            height: 30px;
+            background-color: #2874f0;
+            border: 2px solid white;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+
+        .btn1 a {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .btn1:hover {
+            transform: scale(1.1);
+        }
+
+        .heading {
+            margin: 50px;
+        }
+
+        .heading h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            color: white;
+        }
+
+        .heading h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            color: rgba(145, 142, 142, 0.726);
+        }
+
+        button {
+            width: 120px;
+            height: 30px;
+            margin: 20px;
+        }
+
+        .btn2 {
+            cursor: pointer;
+            border: 2px solid #2874f0;
+            border-radius: 50px;
+            background-color: #2874f0;
+        }
+
+        .btn2:hover {
+            transform: scale(1.1);
+        }
+
+        .btn2 a {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .btn3 {
+            cursor: pointer;
+            border: 2px solid transparent;
+            background-color: transparent;
+        }
+
+        .btn3 a {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+        }
+        .footer{
+            background-color: red;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Code On Your Tip</h1>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Portfoliyo</li>
+                    <li>Team</li>
+                    <li>Drop down</li>
+                    <li>Contact</li>
+                    <button class="btn1"><a href="#">Get started</a></button>
+                </ul>
+            </nav>
+        </div>
+        <div class="heading">
+            <h2>Better Soluitons for<br>your business</h2>
+            <br>
+            <h3>We Are Team For Talanted Designers Making<br>Website With Bootstrap</h3>
+            <br>
+            <button class="btn2"><a href="#">Get started</a></button>
+            <button class="btn3"><a href="#">Watch Video</a></button>
+        </div>
+    </div>
+</body>
+
+</html>

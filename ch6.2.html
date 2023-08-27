@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-6 flex property</title>
+    <style>
+        .container {
+            display: flex;
+            /* flex-direction: row-reverse; */
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* flex-wrap: wrap-reverse; */
+            justify-content: center;
+            background-color: aquamarine;
+            height: 100vh;
+            align-content: center;
+            /* justify-content: flex-start; */
+        }
+
+        .box {
+            text-align: center;
+            height: 200px;
+            width: 250px;
+            background-color: green;
+            color: white;
+            border: 5px solid black;
+            flex-grow: -1;
+        }
+
+        .box1 {
+            /* text-align: center; */
+            /* height:200px ; */
+            /* width: 250px; */
+            background-color: yellow;
+            color: black;
+            /* border:5px solid black; */
+            /* order: 4; */
+            /* align-self: flex-end; */
+        }
+
+        .box2 {
+            /* text-align: center; */
+            /* height:200px ; */
+            /* width: 250px; */
+            background-color: red;
+            /* color: white; */
+            /* float:left; */
+            /* border: 5px solid black; */
+            /* clear: right; */
+        }
+
+        .box3 {
+            /* text-align: center; */
+            /* height:200px ; */
+            /* width: 250px; */
+            background-color: darkblue;
+            /* color: white; */
+            /* float:right; */
+            /* border:5px solid black */
+        }
+
+        .box4 {
+            /* text-align: center; */
+            /* height:200px ; */
+            /* width: 250px; */
+            background-color: green;
+            /* color: white; */
+            /* float:left; */
+            /* border: 5px solid black; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div>
+        <div class="box box3">box3</div>
+        <div class="box box4">box4</div>
+    </div>
+</body>
+
+</html>

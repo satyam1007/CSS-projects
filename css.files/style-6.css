@@ -1,0 +1,339 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.home {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.home .menu-bar {
+    padding-left: 50px;
+}
+
+.home .menu-bar i {
+    font-size: 24px;
+    cursor: pointer;
+    display: inline;
+    padding-top: 20px;
+    padding-right: 17px;
+    padding-bottom: 30px;
+    padding-left: 17px;
+}
+
+.home .menu-bar i:hover {
+    background-color: #ccc;
+}
+
+.home .food {
+    font-family: "Karma", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.home .mail {
+    font-family: "Karma", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-right: 30px;
+}
+
+.food-images {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.food-images .food-image-1 {
+    text-align: center;
+    width: 23%;
+}
+
+.food-images .food-image-1 h3 {
+    font-family: "Karma", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-top: 10px;
+}
+
+.food-images .food-image-1 p {
+    font-family: "Karma", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.food-images .food-image-1 p span {
+    line-height: 3.5;
+}
+
+.food-images-2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.food-images-2 .food-image-1 {
+    text-align: center;
+    width: 23%;
+}
+
+.food-images-2 .food-image-1 h3 {
+    font-family: "Karma", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-top: 10px;
+}
+
+.food-images-2 .food-image-1 p {
+    font-family: "Karma", sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.select .first-numbers {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.select .first-numbers p {
+    background-color: black;
+    color: white;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.select .first-numbers p:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.select .numbers {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.select .numbers p {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.select .numbers p:hover {
+    background-color: black;
+    color: white;
+}
+
+.select .first-errow p {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.select .first-errow p:hover {
+    background-color: black;
+    color: white;
+}
+
+.select .last-errow {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.select .last-errow p {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+hr {
+    margin-top: 70px;
+    border-top: #eee;
+}
+
+.select .last-errow p:hover {
+    background-color: black;
+    color: white;
+}
+
+.food-man {
+    text-align: center;
+}
+
+.food-man h1 {
+    font-family: "Karma", sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+.food-man .man-image{
+    margin-top: 30px;
+}
+.food-man i{
+    line-height: 2.7;
+}
+.food-man p{
+    line-height: 1.5;
+    width: 90%;
+    margin: auto;
+}
+.footer .w3-school h1{
+    font-family: "Karma", sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+.footer .w3-school{
+    width: 30%;
+    margin-left: auto;
+}
+.footer .w3-school p{
+    font-family: "Karma", sans-serif;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.footer .w3-school p a{
+    color: black;
+}
+.footer .blog{
+    margin-left: auto;
+}
+.footer .blog li{
+    list-style: none;
+}
+.footer .blog h1{
+    font-family: "Karma", sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+.footer .blog .li-1{
+    display: flex;
+}
+.footer .blog .li-1 p{
+    padding-top: 10px;
+    padding-left: 15px;
+    line-height: 1.5;
+}
+.footer .blog .li-2{
+    display: flex;
+}
+.footer .blog .li-2 p{
+    padding-top: 10px;
+    padding-left: 15px;
+    line-height: 1.5;
+}
+.footer .popular{
+    margin-right: auto;
+}
+.footer .popular h1{
+    font-family: "Karma", sans-serif;
+    /* font-size: 25px; */
+    font-weight: 100;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+.footer .popular .span-first{
+    font-family: "Karma", sans-serif;
+    font-weight: 100;
+    background-color: black;
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.footer .popular .span-2{
+    font-family: "Karma", sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    background-color: #616161;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 2.3;
+}
+.footer{
+    display: flex;
+    height: 50vh;
+}
+
+@media screen and (max-width: 800px) {
+    .homepage .food-images {
+        flex-wrap: wrap;
+    }
+    .food-images .food-image-1 {
+        width: 50%;
+    }
+    .homepage .food-images-2 {
+        flex-wrap: wrap;
+    }
+    .food-images-2 .food-image-1 {
+        width: 50%;
+    }
+    .homepage .food-man .man-image {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .homepage .food-images {
+        flex-wrap: wrap;
+    }
+    .food-images .food-image-1 {
+        width: 50%;
+    }
+    .homepage .food-images-2 {
+        flex-wrap: wrap;
+    }
+    .food-images-2 .food-image-1 {
+        width: 50%;
+    }
+    .homepage .food-man .man-image {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .homepage .food-images {
+        flex-wrap: wrap;
+    }
+    .food-images .food-image-1 {
+        width: 50%;
+    }
+    .homepage .food-images-2 {
+        flex-wrap: wrap;
+    }
+    .food-images-2 .food-image-1 {
+        width: 50%;
+    }
+    .homepage .food-man .man-image {
+        width: 50%;
+    }
+}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web page2</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .main {
+            width: 100%;
+            height: 100vh;
+            background: url(img-9.jpeg);
+            background-size: cover;
+            /* background-position: center; */
+        }
+
+        ul li {
+            list-style-type: none;
+            position: relative;
+            left: 350px;
+            bottom: 150px;
+            display: inline-block;
+            margin: 30px;
+            margin-top: 118px;
+        }
+
+        ul li a {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        ul li a:hover {
+            color: orange;
+        }
+
+        .logo {
+            cursor: pointer;
+            margin: 15px;
+            font-size: 12px;
+            color: orange;
+        }
+
+        .Search {
+            display: flex;
+            justify-content: center;
+        }
+
+        .srch {
+            background-color: transparent;
+            width: 300px;
+            height: 22px;
+            border: 2px solid orange;
+            margin: 10px;
+            color: white;
+            border-right: none;
+            font-size: 16px;
+            padding: 10px;
+            border-bottom-right-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+        
+        .btn {
+            cursor: pointer;
+            width: 100px;
+            height: 40px;
+            background-color: orange;
+            border: 2px solid orange;
+            margin-top: 13px;
+            position: relative;
+            right: 110px;
+            color: white;
+            font-size: 15px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .btn:focus {
+            outline: none;
+        }
+
+        .srch:focus {
+            outline: none;
+        }
+
+        .content {
+            width: 1200px;
+            height: auto;
+            margin: auto;
+            color: white;
+            position: relative;
+            bottom: 200px;
+        }
+
+        .content .par {
+            padding-left: 20px;
+            padding-bottom: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 1.2px;
+            line-height: 30px;
+        }
+
+        .content h1 {
+            font-family: 'Times New Roman';
+            font-size: 50px;
+            padding-left: 20px;
+            margin-top: 9%;
+            letter-spacing: 2px;
+        }
+
+        .content .cn {
+            width: 160px;
+            height: 40px;
+            background-color: orange;
+            border: none;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: .3s ease;
+        }
+
+        .content .cn .a {
+            /* text-decoration: none; */
+            color: black;
+        }
+
+        .cn:hover {
+            background-color: white;
+        }
+
+        .content span {
+            font-size: 60px;
+            color: orange;
+        }
+
+        .form {
+            cursor: pointer;
+            width: 250px;
+            height: 380px;
+            background-color: transparent;
+            position: absolute;
+            top: -20px;
+            left: 870px;
+            border-radius: 10px;
+            padding: 25px;
+        }
+
+        .form h2 {
+            width: 220px;
+            font-family: sans-serif;
+            text-align: center;
+            color: orange;
+            font-size: 22px;
+            background-color: white;
+            border: 10px;
+            margin: 2px;
+            padding: 8px;
+        }
+
+        .form input {
+            width: 240px;
+            height: 35px;
+            background-color: transparent;
+            border-bottom: 1px solid orange;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            color: white;
+            font-size: 15px;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            font-family: sans-serif;
+        }
+
+        .form input:focus {
+            outline: none;
+        }
+
+        ::placeholder {
+            color: white;
+            font-family: Arial;
+        }
+
+        .btnn {
+            width: 240px;
+            height: 40px;
+            background-color: orange;
+            border: none;
+            margin-top: 30px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: white;
+        }
+
+        .btnn:hover {
+            background-color: white;
+            color: orange;
+        }
+
+        .btnn a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .form.link {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .form.link a {
+            text-decoration: none;
+            color: orange;
+        }
+
+        .liw {
+            padding-top: 15px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        .icon a {
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+            padding-left: 15px;
+            padding-top: 5px;
+        }
+
+        .icon ion-icon:hover {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="Search">
+            <input class="srch" type="text" placeholder="Search Here">
+            <a href="#"><button class="btn">Search</button></a>
+        </div>
+        <div class="logo">
+            <h1>Code on your tip</h1>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="content">
+            <h1>Web Design & <br><span>Devlopment</span> <br>course</h1>
+            <p class="par">Lorem, ipsum dolor sit amet consectetur adipisicing <br> elit. Reprehenderit quibusdam ipsa
+                ab aliquid quaerat nulla nesciunt eum <br> est recusandae sed, amet nobis obcaecati porro labore
+                consequuntur praesentium <br> dolor, odio itaque.</p>
+            <button class="cn"><a href="#">JOIN US</a></button>
+            <br>
+            <div class="form">
+                <h2>Login Here</h2>
+                <input type="Email" name="Email" placeholder="Enter Email Here">
+                <input type="password" name="password" placeholder="Enter password">
+                <button class="btnn"><a href="#">Login</a></button>
+
+                <p class="link">don't
+                    </a>have an account<br>
+                    <a href="#">Sign up </a> here</a>
+                </p>
+                <p class="Liw">log in with</p>
+                <div class="icon">
+                    <a href="#">
+                        <ion-icon name="logo-Facebook"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-Instagram"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-Twitter"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-Google"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-Skype"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-Youtube"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-Whatsapp"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-Apple"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+</html>
